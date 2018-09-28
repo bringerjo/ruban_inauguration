@@ -1,0 +1,134 @@
+
+/************************************************************
+** Nom du fichier / projet : style.css / Ribbon           **
+** Auteur: Grégory et Ana                                 **
+** Date de création: 12/12/17 12h55                       **
+** Date de modification: 12/12/17 12h57					  **
+** Description: feuille de style du projet Inauguration   ** 
+***********************************************************/
+
+/*fonts*/
+@import url('https://fonts.googleapis.com/css?family=Overlock');
+/** header **/
+body{
+	margin: 0;
+	background-color: #feed01;	
+	background-color: #fff;
+	/*cursor: url("images/scissors.png"), pointer;*/
+	/*background-image: url("images/logo-occitanie-pyrenees-mediterannee.jpg");*/
+}
+
+body section, body footer{
+	cursor: url("images/scissors.png"), pointer;
+}
+.imageDeFond {
+	text-align: center;   
+	background-color: #c90205;*/
+}
+
+.log-occitanie{
+	padding-bottom: 2em;
+	padding-top: 2em;
+	height: 180px;
+}
+
+.arrow{
+	text-align: center;
+	margin-left: 1000px;
+	margin-top:-170px;
+}
+body .fleche{
+	height: 50px;
+	margin-right: 10px;
+}
+body .text-fleche{
+	color: #feed01;
+}
+
+
+.txt-ribbon{
+	padding-top: 1.8em;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Overlock',cursive;
+	font-size: 40px;
+}
+
+footer{
+	padding-top: 0.5em;
+	text-align: center;
+}
+/** body **/
+
+.section-ribbon{
+	border: 5px dotted #feed01;
+	height: 90px;
+	width: 100%;
+	background: #c90205;
+	vertical-align: middle;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+	height: 30vh;
+}
+
+.ribbon-left {
+	height: 45px;
+	width: 100%;
+	vertical-align: middle;
+	background-color: #fff;
+	border-top: 3em solid #002395;
+	border-bottom: 3em solid #d61b24;
+}
+
+.ribbon-middle-1 {
+	text-align: center;
+	height: 45px;
+	width: 100%;
+	background-color: #fff;
+	border-top: 3em solid #002395;
+	border-bottom: 3em solid #d61b24;
+	vertical-align: middle;
+	transition-property: transform;
+	transition-duration: 1s;
+	transition-timing-function: ease;
+	text-align: center
+}
+.ribbon-middle-1 img{
+	height: 50px;
+	line-height: 500px;
+
+}
+.ribbon-middle-2 {
+	text-align: center;
+	/*color: #feed01;*/
+	height: 45px;
+	width: 100%;
+	background-color: #fff;
+	border-top: 3em solid #002395;
+	border-bottom: 3em solid #d61b24;
+	vertical-align: middle;
+}
+.ribbon-right {
+
+
+}
+
+/**section 2**/
+
+.date h2 {
+	font-family: 'Overlock',cursive;
+	padding: 4em;
+	display: block;
+	text-align: left;
+	color: #000;
+	font-size: xx-large;
+}
+
+.copyright {
+	text-align: center;
+}
